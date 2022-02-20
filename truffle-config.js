@@ -4,17 +4,17 @@ require('babel-polyfill');
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
-const providerWithMnemonic = (mnemonic, rpcEndpoint) => () =>
+const providerWithMnemonic = (mnemoic, rpcEndpoint) => () =>
   new HDWalletProvider(mnemonic, rpcEndpoint);
 
 const infuraProvider = network => providerWithMnemonic(
   process.env.MNEMONIC || '',
-  `https://${network}.infura.io/v3/${process.env.INFURA_API_KEY}`
+  `https://${mumbai}.infura.io/v3/${process.env.62a53256c5b34d01872e539ea28037ee}`
 );
 
 const ropstenProvider = process.env.SOLIDITY_COVERAGE
   ? undefined
-  : infuraProvider('ropsten');
+  : infuraProvider('mumbai');
 
 module.exports = {
   networks: {
@@ -31,7 +31,7 @@ module.exports = {
       gasPrice: 0x01,
     },
     ropsten: {
-      provider: ropstenProvider,
+      provider: mumbaiProvider,
       network_id: 3, // eslint-disable-line camelcase
       gasPrice: 5000000000,
     },
