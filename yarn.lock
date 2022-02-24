@@ -13839,15 +13839,16 @@ truffle-hdwallet-provider@1.0.1:
     bindings "^1.3.1"
     websocket "^1.0.28"
 
-truffle-plugin-verify@^0.5.19:
-  version "0.5.19"
-  resolved "https://registry.yarnpkg.com/truffle-plugin-verify/-/truffle-plugin-verify-0.5.19.tgz#c96895c513d7f8d954b6917b4fb79885b200738c"
-  integrity sha512-Gh9sQc36ZuyiLxBIAswt123CZIJ+/Ip82P9X0WGITgfRAOzPLMIDoH3FnyRzuxJ5YHgS8S9xufUL1ldDl5I7Sg==
+truffle-plugin-verify@^0.5.21:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/truffle-plugin-verify/-/truffle-plugin-verify-0.5.21.tgz#cab1ea49f8287c471c4ef14d34600db903896767"
+  integrity sha512-5NxJE/zgep3tWgrjrERhXPPqjB2vXekP6ovGx1AdqdZil7M7CoSWXDum/9cnHAajNJ3uYKsZugM5OoSp8o9cMg==
   dependencies:
     axios "^0.21.1"
     cli-logger "^0.5.40"
     delay "^5.0.0"
     querystring "^0.2.1"
+    tunnel "0.0.6"
 
 truffle@5.4.5:
   version "5.4.5"
@@ -13926,6 +13927,11 @@ tunnel-agent@^0.6.0:
   integrity sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
   dependencies:
     safe-buffer "^5.0.1"
+
+tunnel@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/tunnel/-/tunnel-0.0.6.tgz#72f1314b34a5b192db012324df2cc587ca47f92c"
+  integrity sha512-1h/Lnq9yajKY2PEbBadPXj3VxsDDu844OnaAo52UVmIzIvwwtBPIuNvkjuzBlTWpfJyUbG3ez0KSBibQkj4ojg==
 
 tweetnacl-util@^0.15.1:
   version "0.15.1"
