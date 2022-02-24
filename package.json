@@ -90,7 +90,7 @@
     "ethereumjs-wallet": "^0.6.3",
     "truffle": "5.4.5",
     "truffle-contract-size": "^2.0.1",
-    "truffle-hdwallet-provider": "1.0.1",
+    "truffle-hdwallet-provider": "1.0.17",
     "truffle-plugin-verify": "^0.5.19"
   },
   "resolutions": {
