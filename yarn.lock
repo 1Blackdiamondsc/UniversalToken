@@ -1246,10 +1246,10 @@
     find-up "^4.1.0"
     fs-extra "^8.1.0"
 
-"@openzeppelin/contracts@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.2.0.tgz#260d921d99356e48013d9d760caaa6cea35dc642"
-  integrity sha512-LD4NnkKpHHSMo5z9MvFsG4g1xxZUDqV3A3Futu3nvyfs4wPwXxqOgMaxOoa2PeyGL2VNeSlbxT54enbQzGcgJQ==
+"@openzeppelin/contracts@^4.7.2":
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.7.2.tgz#7587416fe2d35abf574193515b8971bfe9f64bc7"
+  integrity sha512-4n/JL9izql8303mPqPdubuna/DWEMbmOzWYUWyCPhjhiEr2w3nQrjE7vZz1fBF+wzzP6dZbIcsgqACk53c9FGA==
 
 "@openzeppelin/test-helpers@^0.5.6":
   version "0.5.9"
@@ -9687,10 +9687,6 @@ md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
   integrity sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg==
-  dependencies:
-    hash-base "^3.0.0"
-    inherits "^2.0.1"
-    safe-buffer "^5.1.2"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -12721,9 +12717,6 @@ sha.js@^2.4.0, sha.js@^2.4.11, sha.js@^2.4.8:
   version "2.4.11"
   resolved "https://registry.yarnpkg.com/sha.js/-/sha.js-2.4.11.tgz#37a5cf0b81ecbc6943de109ba2960d1b26584ae7"
   integrity sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==
-  dependencies:
-    inherits "^2.0.1"
-    safe-buffer "^5.0.1"
 
 shallowequal@^1.0.2:
   version "1.1.0"
