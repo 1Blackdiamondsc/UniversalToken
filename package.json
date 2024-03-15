@@ -91,7 +91,7 @@
     "truffle": "5.4.5",
     "truffle-contract-size": "^2.0.1",
     "truffle-hdwallet-provider": "1.0.1",
-    "truffle-plugin-verify": "^0.5.19"
+    "truffle-plugin-verify": "^0.6.7"
   },
   "resolutions": {
     "web3": "1.3.0"
